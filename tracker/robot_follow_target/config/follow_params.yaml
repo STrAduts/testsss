@@ -1,0 +1,16 @@
+# 跟踪参数配置
+follow_params:
+  ros__parameters:
+    fixed_distance: 2.0          # 固定距离L（米）
+    distance_tolerance: 0.2      # 浮动范围M（米）
+    angle_tolerance: 10.0        # 视场中央角度z（度）
+    gaussian_window_size: 5      # 高斯滤波窗口大小
+    # 摄像头内参（仿真/实际需根据硬件调整）
+    camera_fx: 550.0             # 焦距x
+    camera_fy: 550.0             # 焦距y
+    camera_cx: 320.0             # 图像中心x
+    camera_cy: 240.0             # 图像中心y
+    target_real_width: 0.5       # 目标方块实际宽度（米）
+    # 运动控制参数
+    linear_kp: 0.5               # 线速度比例系数
+    angular_kp: 0.1              # 角速度比例系数
