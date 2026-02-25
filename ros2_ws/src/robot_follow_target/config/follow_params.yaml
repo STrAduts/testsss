@@ -1,0 +1,22 @@
+follow_controller:
+  ros__parameters:
+    target_distance_L: 2.0        # 目标固定距离L (米)
+    distance_tolerance_M: 0.2     # 允许浮动M (米)
+    fov_tolerance_z: 5.0          # 视场中央允许偏移角度z (度)
+    linear_speed_gain: 0.5        # 线速度比例系数
+    angular_speed_gain: 0.3       # 角速度比例系数
+
+camera_processor:
+  ros__parameters:
+    camera_topic: /camera/image_raw  # 摄像头图像话题
+    camera_fx: 600.0                 # 摄像头内参fx (像素)
+    camera_fy: 600.0                 # 摄像头内参fy (像素)
+    camera_cx: 320.0                 # 图像中心x (像素)
+    camera_cy: 240.0                 # 图像中心y (像素)
+    target_real_width: 0.2           # 目标方块实际宽度 (米)
+    target_real_height: 0.2          # 目标方块实际高度 (米)
+    gaussian_kernel_size: [5,5]      # 高斯滤波核大小
+    gaussian_sigma_x: 0              # 高斯滤波sigmaX
+    hsv_lower: [0, 0, 180]          # 目标颜色HSV下限（红色）
+    hsv_upper: [180, 30, 255]        # 目标颜色HSV上限（红色）
+    min_contour_area: 100            # 最小检测轮廓面积

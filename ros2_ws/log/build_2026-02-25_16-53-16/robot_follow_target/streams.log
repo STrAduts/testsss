@@ -1,0 +1,49 @@
+[0.426s] Invoking command in '/home/straduts/ros2_ws/src/robot_follow_target': PYTHONPATH=/home/straduts/ros2_ws/build/robot_follow_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_follow_target build --build-base /home/straduts/ros2_ws/build/robot_follow_target/build install --record /home/straduts/ros2_ws/build/robot_follow_target/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.598s] creating ../../build/robot_follow_target/robot_follow_target.egg-info
+[0.598s] writing ../../build/robot_follow_target/robot_follow_target.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../build/robot_follow_target/robot_follow_target.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../build/robot_follow_target/robot_follow_target.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/robot_follow_target/robot_follow_target.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/robot_follow_target/robot_follow_target.egg-info/top_level.txt
+[0.598s] writing manifest file '../../build/robot_follow_target/robot_follow_target.egg-info/SOURCES.txt'
+[0.599s] reading manifest file '../../build/robot_follow_target/robot_follow_target.egg-info/SOURCES.txt'
+[0.599s] adding license file 'LICENSE'
+[0.599s] writing manifest file '../../build/robot_follow_target/robot_follow_target.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.599s] creating /home/straduts/ros2_ws/build/robot_follow_target/build
+[0.600s] creating /home/straduts/ros2_ws/build/robot_follow_target/build/lib
+[0.600s] creating /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target
+[0.600s] copying robot_follow_target/camera_processor.py -> /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target
+[0.600s] copying robot_follow_target/follow_controller.py -> /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target
+[0.600s] copying robot_follow_target/__init__.py -> /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target
+[0.600s] copying robot_follow_target/utils.py -> /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target
+[0.600s] running install
+[0.600s] running install_lib
+[0.601s] creating /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target
+[0.601s] copying /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target/camera_processor.py -> /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target
+[0.601s] copying /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target/follow_controller.py -> /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target
+[0.601s] copying /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target/__init__.py -> /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target
+[0.601s] copying /home/straduts/ros2_ws/build/robot_follow_target/build/lib/robot_follow_target/utils.py -> /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target
+[0.601s] byte-compiling /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target/camera_processor.py to camera_processor.cpython-310.pyc
+[0.602s] byte-compiling /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target/follow_controller.py to follow_controller.cpython-310.pyc
+[0.603s] byte-compiling /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target/__init__.py to __init__.cpython-310.pyc
+[0.603s] byte-compiling /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target/utils.py to utils.cpython-310.pyc
+[0.603s] running install_data
+[0.603s] creating /home/straduts/ros2_ws/install/robot_follow_target/share/ament_index
+[0.603s] creating /home/straduts/ros2_ws/install/robot_follow_target/share/ament_index/resource_index
+[0.603s] creating /home/straduts/ros2_ws/install/robot_follow_target/share/ament_index/resource_index/packages
+[0.603s] copying resource/robot_follow_target -> /home/straduts/ros2_ws/install/robot_follow_target/share/ament_index/resource_index/packages
+[0.603s] copying package.xml -> /home/straduts/ros2_ws/install/robot_follow_target/share/robot_follow_target
+[0.603s] creating /home/straduts/ros2_ws/install/robot_follow_target/share/robot_follow_target/config
+[0.603s] copying config/follow_params.yaml -> /home/straduts/ros2_ws/install/robot_follow_target/share/robot_follow_target/config
+[0.603s] creating /home/straduts/ros2_ws/install/robot_follow_target/share/robot_follow_target/launch
+[0.604s] copying launch/gazebo_load_both.launch.py -> /home/straduts/ros2_ws/install/robot_follow_target/share/robot_follow_target/launch
+[0.604s] running install_egg_info
+[0.605s] Copying ../../build/robot_follow_target/robot_follow_target.egg-info to /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot_follow_target-0.0.0-py3.10.egg-info
+[0.606s] running install_scripts
+[0.622s] Installing camera_processor script to /home/straduts/ros2_ws/install/robot_follow_target/lib/robot_follow_target
+[0.622s] Installing follow_controller script to /home/straduts/ros2_ws/install/robot_follow_target/lib/robot_follow_target
+[0.622s] writing list of installed files to '/home/straduts/ros2_ws/build/robot_follow_target/install.log'
+[0.639s] Invoked command in '/home/straduts/ros2_ws/src/robot_follow_target' returned '0': PYTHONPATH=/home/straduts/ros2_ws/build/robot_follow_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_follow_target build --build-base /home/straduts/ros2_ws/build/robot_follow_target/build install --record /home/straduts/ros2_ws/build/robot_follow_target/install.log --single-version-externally-managed install_data

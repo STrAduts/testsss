@@ -1,0 +1,9 @@
+source;share/rc2026_field/hook/pythonpath.ps1
+source;share/rc2026_field/hook/pythonpath.dsv
+source;share/rc2026_field/hook/pythonpath.sh
+source;share/rc2026_field/hook/ament_prefix_path.ps1
+source;share/rc2026_field/hook/ament_prefix_path.dsv
+source;share/rc2026_field/hook/ament_prefix_path.sh
+source;../../build/rc2026_field/share/rc2026_field/hook/pythonpath_develop.ps1
+source;../../build/rc2026_field/share/rc2026_field/hook/pythonpath_develop.dsv
+source;../../build/rc2026_field/share/rc2026_field/hook/pythonpath_develop.sh
