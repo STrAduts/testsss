@@ -1,4 +1,0 @@
-[console_scripts]
-camera_processor = robot_follow_target.camera_processor:main
-follow_controller = robot_follow_target.follow_controller:main
-

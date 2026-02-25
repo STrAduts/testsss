@@ -1,1 +1,0 @@
-/home/straduts/ros2_ws/src/rc2026_field_hw/setup.py
