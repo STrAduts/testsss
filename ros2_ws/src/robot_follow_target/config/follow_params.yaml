@@ -17,6 +17,6 @@ camera_processor:
     target_real_height: 0.2          # 目标方块实际高度 (米)
     gaussian_kernel_size: [5,5]      # 高斯滤波核大小
     gaussian_sigma_x: 0              # 高斯滤波sigmaX
-    hsv_lower: [0, 0, 180]          # 目标颜色HSV下限（红色）
-    hsv_upper: [180, 30, 255]        # 目标颜色HSV上限（红色）
+    hsv_lower: [0, 0, 104]          # 目标颜色HSV下限（红色）
+    hsv_upper: [180, 60, 122]        # 目标颜色HSV上限（红色）
     min_contour_area: 100            # 最小检测轮廓面积

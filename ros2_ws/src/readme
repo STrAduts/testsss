@@ -8,6 +8,11 @@ ros2 run robot_follow_target camera_processor
 cd ~/ros2_ws && source install/setup.bash
 ros2 run robot_follow_target follow_controller
 
+# 执行一键启动脚本
 cd ~/ros2_ws
-# 执行一键启动脚本（自动编译+加载环境+启动Gazebo+所有节点）
 ./src/robot_follow_target/scripts/run_follow.sh
+
+cd ~/ros2_ws && source install/setup.bash
+ros2 topic echo /robot_target_pose
+
+https://www.bilibili.com/video/BV1MjfbB3Ehe

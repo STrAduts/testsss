@@ -64,6 +64,11 @@ class CameraProcessor(Node):
         # 2. 颜色检测
         hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
         mask = cv2.inRange(hsv, self.hsv_lower, self.hsv_upper)
+
+        # ========== 新增：显示mask，验证颜色分割效果 ==========
+        cv2.imshow("Mask View", mask)  # 新增mask窗口
+        cv2.waitKey(1)
+        # =====================================================
         
         # 3. 轮廓检测（找最大轮廓作为目标）
         contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)

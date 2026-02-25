@@ -1,0 +1,18 @@
+[0.667s] Invoking command in '/home/straduts/ros2_ws/build/robot_follow_target': PYTHONPATH=/home/straduts/ros2_ws/build/robot_follow_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/straduts/ros2_ws/build/robot_follow_target/build --no-deps symlink_data
+[0.865s] running develop
+[0.988s] running egg_info
+[0.988s] writing robot_follow_target.egg-info/PKG-INFO
+[0.988s] writing dependency_links to robot_follow_target.egg-info/dependency_links.txt
+[0.988s] writing entry points to robot_follow_target.egg-info/entry_points.txt
+[0.988s] writing requirements to robot_follow_target.egg-info/requires.txt
+[0.990s] writing top-level names to robot_follow_target.egg-info/top_level.txt
+[0.991s] reading manifest file 'robot_follow_target.egg-info/SOURCES.txt'
+[0.992s] writing manifest file 'robot_follow_target.egg-info/SOURCES.txt'
+[0.993s] running build_ext
+[0.993s] Creating /home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages/robot-follow-target.egg-link (link to .)
+[0.994s] Installing camera_processor script to /home/straduts/ros2_ws/install/robot_follow_target/lib/robot_follow_target
+[0.994s] Installing follow_controller script to /home/straduts/ros2_ws/install/robot_follow_target/lib/robot_follow_target
+[0.995s] 
+[0.995s] Installed /home/straduts/ros2_ws/build/robot_follow_target
+[0.995s] running symlink_data
+[1.020s] Invoked command in '/home/straduts/ros2_ws/build/robot_follow_target' returned '0': PYTHONPATH=/home/straduts/ros2_ws/build/robot_follow_target/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/straduts/ros2_ws/install/robot_follow_target/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/straduts/ros2_ws/build/robot_follow_target/build --no-deps symlink_data
